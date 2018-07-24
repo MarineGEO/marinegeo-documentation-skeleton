@@ -7,9 +7,6 @@
 #url: "https://marinegeo.github.io"
 #baseurl: ""
 
-marinegeourl: "https://marinegeo.github.io"
-
-
 # If you are building a GitHub project page then use these settings:
 #url: "https://marinegeo.github.io/marinegeo-documentation-skeleton"
 url: "https://marinegeo.github.io"
@@ -65,13 +62,6 @@ footer-col: "#97C8EB"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
-
-# marinegeo colors
-# dark blue = #0D5387
-# turquoise = 	#02BABA
-# green = 	#A7CE4E
-# light blue = 	#C6E9FC
-
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
@@ -81,7 +71,7 @@ footer-link-col: "#404040"
 
 # move blog to another page rather than the home page
 # https://github.com/daattali/beautiful-jekyll#how-do-i-move-the-blog-to-another-page-instead-of-having-it-on-the-home-page
-paginate_path: "/blog/page:num/"
+# paginate_path: "/blog/page:num/"
 
 # --- Footer options --- #
 
@@ -164,7 +154,7 @@ timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+#paginate: 5
 
 kramdown:
   input: GFM
